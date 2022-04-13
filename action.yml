@@ -3,6 +3,11 @@ description: Install and run lhci and write comments on the pull request.
 outputs:
   status:
     description: 生成できたかできなかったか
+branding:
+  icon: git-pull-request
+  color: gray-dark
+
+
 runs:
   using: composite
   steps:
